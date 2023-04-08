@@ -131,11 +131,10 @@ body {
 }
 
 .hero-btn {
-  font-weight: 400;
   font-size: 36px;
   line-height: 1.5;
 
-  color: var;
+  color: var(--main-light);
 
   background: var(--secondary-color);
   border-radius: 15px;
