@@ -135,7 +135,53 @@ body {
   line-height: 1.5;
 
   color: var(--main-light);
-
+  border: 2px solid var(--secondary-color);
   background: var(--secondary-color);
   border-radius: 15px;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--secondary-color);
+  background: var(--main-light);
+}
+
+/* Skills */
+
+.skills-list {
+  padding-left:0 ;
+}
+
+.skills-item {
+  background: var(--card-bg);
+  border-radius: 10px;
+}
+
+.skills-title {
+  font-weight: 600;
+    font-size: 30px;
+    line-height: 2.67;
+    
+    color:var(--secondary-color);
+}
+
+.skills-text {
+ 
+    line-height: 1.5;
+}
+
+.skills-btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+   
+  color:var(--main-light);
+  background:var(--secondary-color);
+  border-radius: 5px;
+}
+.skills-btn:hover,
+.skills-btn:focus {
+  color: var(--secondary-color);
+  background: var(--main-light);
+}
+
+
