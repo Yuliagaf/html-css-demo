@@ -139,11 +139,7 @@ body {
   background: var(--secondary-color);
   border-radius: 15px;
 }
-.hero-btn:hover,
-.hero-btn:focus {
-  color: var(--secondary-color);
-  background: var(--main-light);
-}
+
 
 /* Skills */
 
@@ -179,7 +175,9 @@ body {
   border-radius: 5px;
 }
 .skills-btn:hover,
-.skills-btn:focus {
+.skills-btn:focus,
+.hero-btn:hover,
+.hero-btn:focus {
   color: var(--secondary-color);
   background: var(--main-light);
 }
